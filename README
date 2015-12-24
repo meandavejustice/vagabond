@@ -1,0 +1,8 @@
+VAGABOND
+--------------------------------------------------
+
+npm install && npm start
+
+adapted from https://github.com/mattdesl/google-panorama-equirectangular/blob/master/demo/gpu.js
+
+assumes https://github.com/meandavejustice/field is running for location/audio data

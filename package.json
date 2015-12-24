@@ -1,0 +1,24 @@
+{
+  "name": "vagabond",
+  "version": "1.0.0",
+  "description": "https://github.com/mattdesl/google-panorama-equirectangular/blob/master/demo/gpu.js",
+  "main": "gpu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "budo index.js:bundle.js --live | garnish"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-panorama-by-location": "^4.1.1",
+    "google-panorama-equirectangular": "^1.2.0",
+    "google-panorama-zoom-level": "^1.0.0",
+    "three": "^0.73.0",
+    "three-orbit-viewer": "^69.3.0",
+    "xhr": "^2.2.0"
+  },
+  "devDependencies": {
+    "budo": "^7.1.0",
+    "garnish": "^5.0.1"
+  }
+}
